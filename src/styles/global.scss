@@ -1,0 +1,16 @@
+// SETUP
+@import 'setup/typography';
+@import 'setup/variables';
+
+// BASICS
+@import 'basics/helpers';
+@import 'basics/base';
+
+// VIEWS 
+@import 'views/sound-cloud-app';
+
+// COMPONENTS
+@import 'components/track-list';
+@import 'components/search-bar';
+@import 'components/recent-searches';
+@import 'components/track-image';

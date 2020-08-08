@@ -1,0 +1,9 @@
+.track-list {
+    margin: 0 0 30px;
+    max-width: 360px;
+    h4 {
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.App {
+    background-color: $clr4;
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 40px 30px;
+    .logo {
+        align-items: flex-end;
+        margin-bottom: 50px;
+        img {
+            height: 36px;
+            margin-right: 8px;
+        }
+        h1 {
+            span {
+                color: $clr1;
+            }
+        }
+    }
+    .err,
+    .showing {
+        color: $clr1;
+        margin-bottom: 30px;
+    }
+    .search {
+        margin-bottom: 50px;
+        .next-btn {
+            width: 60px;
+            font-size: 1.1em;
+            border-radius: 0 5px 5px 0;
+        }
+    }
+    h4 {
+        cursor: pointer;
+        &:hover {
+            transition: color 0.3s;
+            color: $clr1;
+        }
+    }
+    @media (max-width: 910px) {
+        max-width: 790px;
+        .recent-searches {
+            width: 100%;
+        }
+        .track-image {
+            margin-right: 20px;
+        }
+    }
+    @media (max-width: 660px) {
+        .sound-cloud-app {
+            flex-direction: column;
+            .track-list {
+                max-width: 100%;
+            }
+            .track-image {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}

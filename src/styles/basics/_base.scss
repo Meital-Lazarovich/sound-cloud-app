@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, input, button {
+    color: $clr2;
+    font-family: Raleway;
+  }
+  
+  body {
+    margin: 0;
+    background-color: darken($clr4, 5%);
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  input, button {
+    outline: none;
+  }
+  
+  button {
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: $clr1;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-weight: normal;
+  }
+  
